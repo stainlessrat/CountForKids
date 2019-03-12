@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Счет для детей</string>
+    <string name="start_message">Начнем?</string>
+    <string name="btn_play">ПРОВЕРИТЬ</string>
+    <string name="btn_level_one">1</string>
+    <string name="btn_restart">НАЧАТЬ ЗАНОВО</string>
+    <string name="btn_level_two">2</string>
+    <string name="action_settings">О программе</string>
+    <string name="text_view_about_game">Программа для развития навыков счета у ваших детей.</string>
+    <string name="text_view_copy">Разработано: Stainlessrat</string>
+    <string name="message_win">Ура! Вы выиграли.</string>
+    <string name="message_lose">Вы проиграли</string>
+    <string name="description_edit_text">Введите ответ здесь</string>
+    <string name="police_message"><a href="http://rezept-day.ucoz.ru/police-my-count-for-lids.html">Политика конфедициальности</a></string>
+</resources>

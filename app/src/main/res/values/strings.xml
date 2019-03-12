@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Count for kids</string>
+    <string name="start_message">Start</string>
+    <string name="btn_play">CHECK TEST</string>
+    <string name="btn_level_one">1</string>
+    <string name="btn_restart">RESTART</string>
+    <string name="btn_level_two">2</string>
+    <string name="action_settings">About</string>
+    <string name="text_view_about_game">The program for learn the count for kids.</string>
+    <string name="text_view_copy">The developer: Stainlessrat</string>
+    <string name="message_win">You WIN!</string>
+    <string name="message_lose">You lose!</string>
+    <string name="description_edit_text">Answer here</string>
+    <string name="police_message"><a href="http://rezept-day.ucoz.ru/police-my-count-for-lids.html">Privacy policy</a></string>
+</resources>

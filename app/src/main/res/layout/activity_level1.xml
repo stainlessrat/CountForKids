@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b_ground"
+        style="@style/MyLayoutStyleLevel"
+        tools:context=".MainActivity">
+
+    <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_margin="10dp"
+            android:max="10"
+            android:progress="0"/>
+
+    <TextView
+            android:id="@+id/tw_count"
+            android:layout_below="@id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_message"
+            style="@style/MyTextViewStyleLevel"
+            />
+
+    <EditText
+            android:id="@+id/edit_text_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tw_count"
+            style="@style/MyEditTextStyleLevel"
+            />
+
+    <LinearLayout
+            android:id="@+id/buttons_view"
+            android:orientation="vertical"
+            android:layout_below="@id/edit_text_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+        <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_play"
+                style="@style/MyButtonStyleLevel"
+        />
+        <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_restart"
+                style="@style/MyButtonStyleLevel"
+        />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

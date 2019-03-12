@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!--Стили активити уровней-->
+    <style name="MyLayoutStyleLevel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!--Стили для TextView-->
+    <style name="MyTextViewStyleLevel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">48sp</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--Стили для EditText-->
+    <style name="MyEditTextStyleLevel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:contentDescription"></item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!--Стили для Button-->
+    <style name="MyButtonStyleLevel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@drawable/back</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+</resources>

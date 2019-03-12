@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/b_ground"
+        style="@style/MyLayoutStyleLevel"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:gravity="center|top">
+
+        <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_margin="10dp"
+                android:max="10"
+                android:progress="0"/>
+
+        <TextView
+                android:id="@+id/tw_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_message"
+                style="@style/MyTextViewStyleLevel"
+        />
+        <EditText
+                android:id="@+id/edit_text_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyEditTextStyleLevel"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/buttons_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2">
+
+        <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="@string/btn_play"
+                style="@style/MyButtonStyleLevel"
+        />
+        <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:text="@string/btn_restart"
+                style="@style/MyButtonStyleLevel"
+        />
+    </LinearLayout>
+
+</LinearLayout>
